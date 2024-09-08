@@ -7,6 +7,8 @@ fg_color = '#ffffff'
 
 # Define application window
 app = TK()
+
+
 # Window properties
 app.title('🎷 MLT 0.1')
 app.geometry('700x500')
@@ -15,6 +17,7 @@ app.eval('tk::PlaceWindow . center')
 app.configure(bg=bg_color)
 
 
+# Define components
 header_label = Label(text="Welcome to MLT 👋",bg=bg_color,fg=fg_color,font=("Arial",18,'bold'))
 header_line_label = Label(text="-------------------------------",bg=bg_color,fg='#3df67b',font=("Arial",18,'bold'))
 input_label = Label(text="Input :",bg=bg_color,fg=fg_color,font=("Arial",13))
@@ -25,6 +28,7 @@ translate_button = Button(text="TRANSLATE",bg='#f6a93d',
                           command=lambda:translate(text=input_textbox.get('1.0', 'end-1c')))
 
 
+# Trabslate function
 def translate(text:str):
         system_letters = ["آ","ا","ع"]
         new_word = ""
@@ -52,6 +56,7 @@ def translate(text:str):
 
 
 
+# Locating components(widgets)
 header_label.place(x=4,y=5)
 header_line_label.place(x=4,y=35)
 input_label.place(x=5,y=65)
@@ -61,6 +66,5 @@ output_textbox.place(x=357,y=90)
 translate_button.place(x=120,y=444)
 
 
-
-
+# APPLICATION EXECUTE
 app.mainloop()
