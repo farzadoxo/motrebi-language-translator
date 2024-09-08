@@ -21,7 +21,34 @@ input_label = Label(text="Input :",bg=bg_color,fg=fg_color,font=("Arial",13))
 input_textbox = Text(width=41,height=20)
 output_label = Label(text="Output :",bg=bg_color,fg=fg_color,font=("Arial",13))
 output_textbox = Text(width=41,height=20)
-translate_button = Button(text="TRANSLATE",bg='#f6a93d')
+translate_button = Button(text="TRANSLATE",bg='#f6a93d',
+                          command=lambda:translate(text=input_textbox.get('1.0', 'end-1c')))
+
+
+def translate(text:str):
+        system_letters = ["آ","ا","ع"]
+        new_word = ""
+        resaultـwords = []
+        resault = ""
+        words = text.split(" ")
+        for i in words:
+            if i[0] not in system_letters:
+                first_leter = i[0]
+                new_word = i.replace(first_leter,"ا")
+                new_word += new_word.join(first_leter)
+                new_word += new_word.join("و")
+                resaultـwords.append(new_word)
+            elif i[0] in system_letters:
+                first_leter = i[0]
+                new_word = i.replace(first_leter,"ش")
+                new_word += new_word.join(first_leter)
+                new_word += new_word.join('و')
+                resaultـwords.append(new_word)
+        for j in resaultـwords:
+            resault += f"{j} "
+        
+        output_textbox.delete('1.0','end')
+        output_textbox.insert('1.0',resault)
 
 
 
