@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Farzad\\Desktop\\motrebi-language-translator\\MLT-windows-app\\MLT-windows-app.csproj": {}
+    "C:\\Users\\Farzad\\Documents\\Projects\\motrebi-language-translator\\MLT-windows-app\\MLT-windows-app.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Farzad\\Desktop\\motrebi-language-translator\\MLT-windows-app\\MLT-windows-app.csproj": {
+    "C:\\Users\\Farzad\\Documents\\Projects\\motrebi-language-translator\\MLT-windows-app\\MLT-windows-app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Farzad\\Desktop\\motrebi-language-translator\\MLT-windows-app\\MLT-windows-app.csproj",
+        "projectUniqueName": "C:\\Users\\Farzad\\Documents\\Projects\\motrebi-language-translator\\MLT-windows-app\\MLT-windows-app.csproj",
         "projectName": "MLT-windows-app",
-        "projectPath": "C:\\Users\\Farzad\\Desktop\\motrebi-language-translator\\MLT-windows-app\\MLT-windows-app.csproj",
+        "projectPath": "C:\\Users\\Farzad\\Documents\\Projects\\motrebi-language-translator\\MLT-windows-app\\MLT-windows-app.csproj",
         "packagesPath": "C:\\Users\\Farzad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Farzad\\Desktop\\motrebi-language-translator\\MLT-windows-app\\obj\\",
+        "outputPath": "C:\\Users\\Farzad\\Documents\\Projects\\motrebi-language-translator\\MLT-windows-app\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Farzad\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -61,7 +61,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
