@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MLT-windows-app")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ecd6e7201044eec4c06e5fae29a5ee2f02c54e5c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c9b8218edc839a7a6e680c4d11936306d1ac0eb")]
 [assembly: System.Reflection.AssemblyProductAttribute("MLT-windows-app")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MLT-windows-app")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
