@@ -30,9 +30,35 @@ partial class Form1
     {
         this.components = new System.ComponentModel.Container();
         this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-        this.ClientSize = new System.Drawing.Size(800, 450);
-        this.Text = "Form1";
+        this.ClientSize = new System.Drawing.Size(600, 450);
+        this.Text = "🎷MLT 0.1";
+
+
+
+        // Define components properties
+        headerLabel = new Label
+        {
+            Text = "Welcome to MLT 👋",
+            ForeColor = Color.Blue,
+            Location = new Point(2,2),
+            Size = new Size(100,50)
+        };
+
+
+        // Locating (place) objects and components
+        this.Controls.Add(headerLabel);
     }
+
+
+    // Define components
+    // --------------------------
+    private Label headerLabel;
+    private Label inputLabel;
+    private Label outputLabel;
+    private TextBox inputTextBox;
+    private TextBox outputTextBox;
+    private Button translateButton;
+
 
     #endregion
 }
