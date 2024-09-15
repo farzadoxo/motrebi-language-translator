@@ -1,5 +1,11 @@
 # MLT (Motrebi Language Translator)
 
+<div align="center">
+
+![MLT](https://img.shields.io/badge/MLT-v0.1-aa36)
+![dotnet](https://shields.io/badge/.NET-8.0-aa36ff?style=flat&logo=dotnet)
+![csharp](https://shields.io/badge/C%23-12.0-006f0b?style=flat&logo=csharp)
+</div>
 <h2>Whats Motrebi Language? | زبان مطربی چیه؟</h2>
 <p lang="ENG-USA">Another type of fictitious language is "Motrebi" which was common among Tehran's singers. Their language is one of the most interesting and at the same time the most difficult "Luthers". Musicians, singers, artists, performers where needed, others If they don't understand them, they talk to each other in a language called "Motrebi".
 
