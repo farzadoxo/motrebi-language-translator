@@ -30,8 +30,10 @@ partial class Form1
     {
         this.components = new System.ComponentModel.Container();
         this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-        this.ClientSize = new System.Drawing.Size(600, 450);
+        this.ClientSize = new System.Drawing.Size(580, 380);
         this.Text = "🎷MLT 0.1";
+        this.FormBorderStyle = FormBorderStyle.Fixed3D;
+        this.MaximizeBox = false;
 
 
 
@@ -40,13 +42,61 @@ partial class Form1
         {
             Text = "Welcome to MLT 👋",
             ForeColor = Color.Blue,
+            Font = new Font("Calibri", 15),
             Location = new Point(2,2),
-            Size = new Size(100,50)
+            Size = new Size(190,20)
+        };
+        
+        inputLabel = new Label
+        {
+            Text = "Input :",
+            ForeColor = Color.Black,
+            Size = new Size(100,20),
+            Location = new Point(2,30)
+        };
+
+        outputLabel = new Label
+        {
+            Text = "Output :",
+            ForeColor = Color.Black,
+            Size = new Size(100,20),
+            Location = new Point(295,30)
+        };
+
+        inputTextBox = new TextBox
+        {
+            Multiline = true,
+            Width = 280,
+            Height = 250,
+            Text = "متن خود را وارد کنید",
+            Location = new Point(2,50)
+        };
+
+        outputTextBox = new TextBox
+        {
+            Multiline = true,
+            Width = 280,
+            Height = 250,
+            Location = new Point(295,50)
+        };
+
+        translateButton = new Button
+        {
+            Text = "Translate",
+            ForeColor = Color.White,
+            BackColor = Color.Orange,
+            Size = new Size(100,50),
+            Location = new Point(100,310)
         };
 
 
         // Locating (place) objects and components
         this.Controls.Add(headerLabel);
+        this.Controls.Add(inputLabel);
+        this.Controls.Add(outputLabel);
+        this.Controls.Add(inputTextBox);
+        this.Controls.Add(outputTextBox);
+        this.Controls.Add(translateButton);
     }
 
 
