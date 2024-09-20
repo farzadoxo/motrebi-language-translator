@@ -3,12 +3,12 @@ import string
 
 class MotrebiLanguage:
     
-    def translate(word:str):
+    def translate(text:str):
         system_letters = ["آ","ا","ع"]
         new_word = ""
         resaultـwords = []
         resault = ""
-        words = word.split(" ")
+        words = text.split(" ")
         for i in words:
             if i[0] not in system_letters:
                 first_leter = i[0]
